@@ -1,0 +1,202 @@
+body{
+    font-family: 'CMUSerifRoman';
+}
+h1{
+
+    font-size: 5em;
+    background-color: rgb(226, 226, 6);
+    width:50%;
+ margin-left: 25%;
+ padding-left: 5%;
+ border-radius: 35px;
+}
+h2{
+    padding-left: 50%;
+    font-size: 3em ;
+}
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr ;
+    grid-column-gap:15px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    padding-left: 5%;
+    padding-top: 2%;
+    border-radius: 35px;
+    background-color: lightslategray;
+}
+.photo{
+    width:100%;
+    border-radius: 50%;
+
+}
+.adresse{
+    font-size: 18px;
+}
+.coord{
+    font-size: 18px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 3fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1f;
+    grid-template-areas: 
+    "compet exp" 
+    "compet exp" 
+    "compet exp" 
+    "forma lang"
+    "forma int"
+    "forma int" ;
+    grid-column-gap:15px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    padding-left: 5%;
+    padding-top: 2%;
+    border-radius: 35px;
+    background-color: lightslategray;
+}
+.a1{
+    font-weight: 900;
+}
+h3{
+    
+    font-size: 2em;
+    background-color: rgb(226, 226, 6);
+    width:19%;
+ border-radius: 35px;
+margin-left: 12.5%;
+padding-left: 2%;
+}
+.compet{
+    grid-area: compet;
+    font-size: 1.2em;
+}
+h4{
+    font-size: 2em;
+    background-color: white;
+    width:105%;
+ border-radius: 35px;
+margin-left: -5%;
+padding-left: 5%;
+ 
+
+}
+.exp{
+    grid-area: exp; 
+}
+.souscont{
+    display: grid;  
+    grid-template-columns: 1fr 3fr ;
+    grid-template-rows: 4fr;
+    grid-template-areas: 
+   "dat1 exp1 " 
+   "dat2 exp2 "  
+   "dat3 exp3 "  
+   "dat4 exp4 "  ;
+   grid-column-gap: 10px;
+   grid-row-gap: 10px;
+}
+
+.forma { grid-area: forma; }
+.dat1 {
+   
+    font-weight: 900;
+    font-style: italic ;
+    color:white;
+    -webkit-text-stroke: 0.15px black;
+    font-size:1em;
+}
+.dat2 {
+    font-weight: 900;
+    font-style: italic;
+    color:white;
+    -webkit-text-stroke: 0.15px black;
+    font-size:1em;
+}
+.dat3 {
+    font-weight: 900;
+    font-style: italic;
+    color:white;
+    -webkit-text-stroke: 0.15px black;
+    font-size:1em;
+}
+.dat4 {
+    font-weight: 900;
+    font-style: italic;
+    color:white;
+    -webkit-text-stroke: 0.15px black;
+    font-size:1em;
+}
+.exp1{
+    font-weight: 900;
+    font-style: italic ;
+    color:black;
+    -webkit-text-stroke: 0.15px white;
+    font-size:1em;
+}
+.exp2{
+    font-weight: 900;
+    font-style: italic ;
+    color:black;
+    -webkit-text-stroke: 0.15px white;
+    font-size:1em;
+}
+.exp3{
+    font-weight: 900;
+    font-style: italic ;
+    color:black;
+    -webkit-text-stroke: 0.15px white;
+    font-size:1em;
+}
+.exp4{
+    font-weight: 900;
+    font-style: italic ;
+    color:black;
+    -webkit-text-stroke: 0.15px white;
+    font-size:1em;
+}
+.titleforma{
+font-size: 2em;
+background-color: white;
+width:33%;
+border-radius: 35px;
+margin-left: 0%;
+padding-left: 2%;
+}
+.titleforma1{
+    font-size: 2em;
+    background-color: white;
+    width:50%;
+    border-radius: 35px;
+    margin-left: 0%;
+    padding-left: 2%;
+    }
+.lang { grid-area: lang; }
+.langui{
+   
+    font-weight: 900;
+    font-style: italic ;
+    color:white;
+    -webkit-text-stroke: 0.15px black;
+    font-size:1em;
+}
+.int { 
+    grid-area: int; 
+
+}
+.titleformaa{
+    font-size: 2em;
+    background-color: white;
+    width:52.5%;
+    border-radius: 35px;
+    margin-left: 0%;
+    padding-left: 2%;
+    margin-top: 5%;
+    }
+    .certif{
+        margin-left: 25%
+    }
