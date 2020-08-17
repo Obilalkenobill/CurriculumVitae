@@ -3,16 +3,16 @@ body{
 }
 h1{
 
-    font-size: 5em;
+    font-size: 3em;
     background-color: rgb(226, 226, 6);
-    width:50%;
- margin-left: 25%;
- padding-left: 5%;
+    width:9.5em;
+ margin: auto;
+ padding-left: 0.5em;
  border-radius: 35px;
 }
 h2{
-    padding-left: 50%;
-    font-size: 3em ;
+    padding-left: auto;
+    font-size: 2.2em ;
 }
 .container{
     display: grid;
@@ -28,7 +28,7 @@ h2{
     background-color: lightslategray;
 }
 .photo{
-    width:100%;
+    width:9.5em;
     border-radius: 50%;
 
 }
@@ -51,8 +51,7 @@ h2{
     "forma int" ;
     grid-column-gap:15px;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     margin-bottom: 1em;
     padding-left: 5%;
     padding-top: 2%;
@@ -64,9 +63,9 @@ h2{
 }
 h3{
     
-    font-size: 2em;
+    font-size: 115%;
     background-color: rgb(226, 226, 6);
-    width:19%;
+    width:10em;
  border-radius: 35px;
 margin-left: 12.5%;
 padding-left: 2%;
@@ -76,9 +75,9 @@ padding-left: 2%;
     font-size: 1.2em;
 }
 h4{
-    font-size: 2em;
+    font-size: 100%;
     background-color: white;
-    width:105%;
+    width:11em;
  border-radius: 35px;
 margin-left: -5%;
 padding-left: 5%;
@@ -91,12 +90,12 @@ padding-left: 5%;
 .souscont{
     display: grid;  
     grid-template-columns: 1fr 3fr ;
-    grid-template-rows: 4fr;
     grid-template-areas: 
    "dat1 exp1 " 
    "dat2 exp2 "  
    "dat3 exp3 "  
-   "dat4 exp4 "  ;
+   "dat4 exp4 " 
+   "dat5 exp5 "  ;
    grid-column-gap: 10px;
    grid-row-gap: 10px;
 }
@@ -117,7 +116,7 @@ padding-left: 5%;
     -webkit-text-stroke: 0.15px black;
     font-size:1em;
 }
-.dat3 {
+.dat3  {
     font-weight: 900;
     font-style: italic;
     color:white;
@@ -125,6 +124,14 @@ padding-left: 5%;
     font-size:1em;
 }
 .dat4 {
+    font-weight: 900;
+    font-style: italic;
+    color:white;
+    -webkit-text-stroke: 0.15px black;
+    font-size:1em;
+}
+.dat5
+{
     font-weight: 900;
     font-style: italic;
     color:white;
@@ -159,18 +166,26 @@ padding-left: 5%;
     -webkit-text-stroke: 0.15px white;
     font-size:1em;
 }
+.exp5
+{
+    font-weight: 900;
+    font-style: italic ;
+    color:black;
+    -webkit-text-stroke: 0.15px white;
+    font-size:1em;
+}
 .titleforma{
-font-size: 2em;
+font-size: 100%;
 background-color: white;
-width:33%;
+width:7.5em;
 border-radius: 35px;
 margin-left: 0%;
 padding-left: 2%;
 }
 .titleforma1{
-    font-size: 2em;
+    font-size: 100%;
     background-color: white;
-    width:50%;
+    width:5.5em;
     border-radius: 35px;
     margin-left: 0%;
     padding-left: 2%;
@@ -189,14 +204,66 @@ padding-left: 2%;
 
 }
 .titleformaa{
-    font-size: 2em;
+    font-size: 100%;
     background-color: white;
-    width:52.5%;
+    width:6em;
     border-radius: 35px;
     margin-left: 0%;
     padding-left: 2%;
     margin-top: 5%;
     }
     .certif{
-        margin-left: 25%
+        display: block;
+        margin: auto;
     }
+    @media only screen and (max-width: 600px) {
+        .container1{
+            display: grid;
+            grid-template-columns: 3fr 1fr ;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1f;
+            grid-template-areas: 
+            "compet exp" 
+            "compet exp" 
+            "compet exp" 
+            "forma lang"
+            "forma int"
+            "forma int" ;
+            grid-column-gap:15px;
+            width: 80%;
+            display:block;
+            margin: auto;
+            margin-bottom: 1em;
+            padding-left: 5%;
+            padding-top: 2%;
+            border-radius: 35px;
+            background-color: lightslategray;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 3fr 1fr ;
+            grid-column-gap:15px;
+            display:block;
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1em;
+            padding-left: 5%;
+            padding-top: 2%;
+            border-radius: 35px;
+            background-color: lightslategray;
+        }
+        h1{
+
+            font-size: 3em;
+            background-color: rgb(226, 226, 6);
+            width:6em;
+         margin: auto;
+         padding-left: 0.5em;
+         border-radius: 35px;
+        }
+        .certif{
+            display: block;
+            margin: auto;
+            width:100%;
+        }
+      }
